@@ -9,8 +9,8 @@ const ProductComponent = () => {
         return (
             <div className=" rounded overflow-hidden " key={id}> 
             <Link to={`/product/${id}`}>
-                        <div className="max-w-sm rounded overflow-hidden shadow-lg ">
-                            <img className="h-48 w-full object-cover md:h-full md:w-48 " src= {image} alt={image} />
+                        <div className="max-w-sm rounded overflow-hidden shadow-lg flex flex-wrap items-end">
+                            <img className="h-48 w-full object-cover md:h-full md:w-full " src= {image} alt={image} />
                         <div className="text-gray-700 text-base">
                             <div className="font-bold text-xl mb-2">{title} </div>
                             <div className="font-bold text-xl">${price} </div>

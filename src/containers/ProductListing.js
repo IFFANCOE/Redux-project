@@ -19,7 +19,7 @@ const  ProductListing = () => {
 
     console.log("Products ",products);
     return (
-        <div className="container p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5 items-end"  >
+        <div className="container m-10 grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-12 items-center"  >
           <ProductComponent />
         </div>
     )
